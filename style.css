@@ -1,0 +1,92 @@
+/* বেসিক রিসেট */
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f5; /* হালকা ব্যাকগ্রাউন্ড */
+    color: #333;
+}
+
+/* মোবাইল অ্যাপের হেডার ডিজাইন */
+header {
+    background-color: #4CAF50; /* সবুজ হেডার */
+    color: white;
+    padding: 15px 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-size: 20px;
+}
+
+/* প্রধান মেনু বাটনের কন্টেইনার */
+.menu-container {
+    padding: 20px 10px;
+}
+
+/* প্রধান মেনুর বাটন ডিজাইন */
+.app-button {
+    display: block;
+    padding: 18px 15px;
+    margin-bottom: 12px;
+    background-color: white;
+    color: #4CAF50;
+    text-align: left;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s;
+}
+
+.app-button:active {
+    background-color: #e0e0e0; /* টাচ করলে হালকা রং হবে */
+}
+
+/* তালিকার (List) কন্টেইনার */
+.list-container {
+    padding: 10px 0;
+}
+
+/* তালিকার আইটেম ডিজাইন (যেমন: ছড়া/কবিতার নাম) */
+.list-item {
+    display: block;
+    padding: 15px 20px;
+    border-bottom: 1px solid #e0e0e0;
+    color: #333;
+    text-decoration: none;
+    background-color: white;
+    font-size: 16px;
+    transition: background-color 0.2s;
+}
+
+.list-item:active {
+    background-color: #f0f0f0;
+}
+
+/* ফিরে যাওয়ার বাটন */
+.back-button {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* ফুটার ডিজাইন */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 12px;
+    color: #999;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
