@@ -1,41 +1,86 @@
-/* আপনার অন্যান্য CSS কোড... */
-
-/* --- প্রধান লিস্ট আইটেম (বাটন) স্টাইল আপডেট --- */
-.list-item {
-    display: block;
-    padding: 18px 20px; /* প্যাডিং বাড়ানো হলো */
-    margin-bottom: 12px;
-    background-color: #fff; /* সাদা ব্যাকগ্রাউন্ড */
+/* --- Global Body Style --- */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* পুরো অ্যাপের ব্যাকগ্রাউন্ড রঙ: হালকা সবুজ */
+    background-color: #e8f5e9; 
     color: #333;
-    text-decoration: none;
-    font-size: 18px;
-    border-radius: 10px; /* কোণগুলি মসৃণ করা হলো */
-    
-    /* বাটনকে প্রিমিয়াম লুক দেওয়ার জন্য সামান্য ছায়া যোগ করা হলো */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-    
-    /* মসৃণ transition, যাতে কালার দ্রুত পরিবর্তন না হয়ে ধীর গতিতে হয় */
-    transition: background-color 0.1s ease, box-shadow 0.1s ease, transform 0.1s ease;
 }
 
-/* টাচ করলে (মোবাইলে) বা মাউস নিয়ে গেলে (কম্পিউটারে) কালার চেঞ্জ হবে */
-.list-item:hover {
-    background-color: #f0f0f0; /* হালকা ধূসর রঙ */
-    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15); /* ছায়া আরেকটু গভীর হবে */
+/* --- Header / Title Bar Style --- */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 60px;
+    /* টাইটেল বারের ব্যাকগ্রাউন্ড রঙ: গাঢ় সবুজ */
+    background-color: #4CAF50; 
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
-/* **** প্রিমিয়াম টাচ ইফেক্ট: টাচ করে ধরে থাকলে (Active/Click) **** */
-.list-item:active {
-    background-color: #e0e0e0; /* টাচ করার সময় গাঢ় ধূসর রঙ */
-    /* ক্লিক করার সময় বাটনটি সামান্য নিচের দিকে চেপে যাবে */
-    transform: translateY(2px); 
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* ছায়া হালকা হয়ে যাবে */
+/* header-এর h1-কে সাদা করার জন্য */
+header h1 {
+    margin: 0;
+    font-size: 20px;
 }
 
-/* আগের back-button স্টাইলটি অক্ষত থাকবে, শুধু নিশ্চিত করার জন্য নিচে দেওয়া হলো: */
+/* --- Back Button Style --- */
 .back-button {
     color: #fff;
     text-decoration: none;
     font-size: 24px;
     padding: 0 10px;
 }
+
+/* --- List Container (Main Content Area) --- */
+.list-container {
+    padding: 20px;
+}
+
+/* --- List Items (Premium Button Look) --- */
+.list-item {
+    display: block;
+    padding: 18px 20px; 
+    margin-bottom: 12px;
+    background-color: #fff; /* সাদা ব্যাকগ্রাউন্ড */
+    color: #333;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 10px; /* মসৃণ কোণ */
+    font-weight: bold;
+    
+    /* প্রিমিয়াম লুকের জন্য ছায়া */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    
+    /* মসৃণ transition */
+    transition: background-color 0.1s ease, box-shadow 0.1s ease, transform 0.1s ease;
+}
+
+/* মাউস নিয়ে গেলে (বাটন কালার চেঞ্জ হবে) */
+.list-item:hover {
+    background-color: #f0f0f0; 
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.15); 
+}
+
+/* টাচ করলে (Active/Click) প্রিমিয়াম ইফেক্ট */
+.list-item:active {
+    background-color: #e0e0e0; /* টাচ করার সময় গাঢ় ধূসর রঙ */
+    transform: translateY(2px); /* বাটনটি সামান্য চেপে যাবে */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+/* --- Poem Content Details Style --- */
+.poem-content {
+    padding: 20px;
+    margin-top: 10px; 
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    }
+    
