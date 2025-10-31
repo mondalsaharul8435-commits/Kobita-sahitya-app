@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ঈশ্বরচন্দ্র বিদ্যাসাগর</title>
+    <link rel="stylesheet" href="../../../style.css"> 
+</head>
+<body>
+    <header class="list-header">
+        <a href="../michael-madhusudan-dutt-list.html" class="back-button">←</a>
+        <h1>মাইকেল মধুসূদন দত্ত</h1>
+    </header>
+
+    <main class="poem-content">
+        <h2 style="text-align: center; margin-bottom: 20px;">৪. ঈশ্বরচন্দ্র বিদ্যাসাগর</h2>
+        
+        <div style="poem-text">
+            <p style="text-align: center; line-height: 1.8;">
+                বিদ্যার সাগর তুমি বিখ্যাত ভারতে।<br>
+                করুণার সিন্ধু তুমি, সেই জানে মনে,<br>
+                দীন যে, দীনের বন্ধু !-- উজ্জল জগতে<br>
+                হেমাদ্রির হেম-কান্তি অম্লান কিরণে।<br>
+                কিন্তু ভাগ্য-বলে পেয়ে সে মহা পর্বতে,<br>
+                যে জন আশ্রয় লয় সুবর্ণ চরণে,<br>
+                সেই জানে কত গুণ ধরে কত মতে<br>
+                গিরীশ। কি সেবা তার সে সুখ সদনে !<br>
+                দানে বারি নদীরূপ বিমলা কিঙ্করী।<br>
+                যোগায় অমৃত ফল পরম আদরে<br>
+                দীর্ঘ-শিরঃ তরু-দল, দাসরূপ ধরি।<br>
+                পরিমলে ফুল-কুল দশ দিশ ভরে,<br>
+                দিবসে শীতল শ্বাসী ছায়া, বনেশ্বরী,<br>
+                নিশায় সুশান্ত নিদ্রা, ক্লান্তি দূর করে।<br>
+            </p>
+            <p style="text-align: center; font-size: 0.9em; margin-top: 20px;">(চতুর্দশপদী কবিতাবলী)</p>
+        </div>
+    </main>
+</body>
+</html>
+
