@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>কপোতাক্ষ নদ</title>
+    <link rel="stylesheet" href="../../../style.css"> 
+</head>
+<body>
+    <header class="list-header">
+        <a href="../michael-madhusudan-dutt-list.html" class="back-button">←</a>
+        <h1>মাইকেল মধুসূদন দত্ত</h1>
+    </header>
+
+    <main class="poem-content">
+        <h2 style="text-align: center; margin-bottom: 20px;">২. কপোতাক্ষ নদ</h2>
+        
+        <div style="poem-text">
+            <p style="text-align: center; line-height: 1.8;">
+                সতত, হে নদ, তুমি পড় মোর মনে |<br>
+                সতত তোমার কথা ভাবি এ বিরলে ;<br>
+                সতত ( যেমতি লোক নিশার স্বপনে<br>
+                শোনে মায়া-যন্ত্রধ্বনি) তব কলকলে<br>
+                জুড়াই এ কান আমি ভ্রান্তির ছলনে!---<br>
+                বহু দেশে দেখিয়াছি বহু নদ-দলে,<br>
+                কিন্তু এ স্নেহের তৃষ্ণা মিটে কার জলে?<br>
+                দুগ্ধ-স্রোতোরূপী তুমি জন্ম-ভূমি-স্তনে!<br>
+                আর কি হে হবে দেখা?---যত দিন যাবে,<br>
+                প্রজারূপে রাজরূপ সাগরেরে দিতে<br>
+                বারি-রূপ কর তুমি; এ মিনতি, গাবে<br>
+                বঙ্গজ-জনের কানে, সখে, সখা-রীতে<br>
+                নাম তার, এ প্রবাসে মজি প্রেম-ভাবে<br>
+                লইছে যে তব নাম বঙ্গের সঙ্গীতে!<br>
+            </p>
+            <p style="text-align: center; font-size: 0.9em; margin-top: 20px;">(চতুর্দশপদী কবিতাবলী)</p>
+        </div>
+    </main>
+</body>
+</html>
+
